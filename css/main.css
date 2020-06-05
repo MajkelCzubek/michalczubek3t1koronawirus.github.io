@@ -1,0 +1,39 @@
+#header {
+	background-color: #FFCC66;
+	height: 250px;
+	width: 100%;
+	text-align: center;
+	font-family: Georgia;
+}
+
+#menu {
+	background-color: #E9E9E9;
+	height: 50px;
+	width: 100%
+
+}
+
+#mid {
+	background-color: #DADADA;
+	height: 1000px;
+	width: 100%;
+	text-align: left;
+}
+
+#bottom {
+	background-color: #FFCC66;
+	height: 100px;
+	width: 100%;
+
+}
+
+#obrazek1 {
+	float: center;
+	margin: 0px;
+}
+
+@media only screen and (max-width: 500px){
+        #header,#menu,#mid,#bottom,{
+            width: 100%;
+        }
+}
